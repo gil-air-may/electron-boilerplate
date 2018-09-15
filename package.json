@@ -8,7 +8,8 @@
   "license": "MIT",
   "scripts": {
     "start": "electron .",
-    "lint": "eslint **/*.js"
+    "lint": "eslint **/*.js",
+    "eject": "react-scripts eject"
   },
   "devDependencies": {
     "babel-core": "^6.24.0",
@@ -25,6 +26,7 @@
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
     "react-router-dom": "^4.3.1",
+    "react-scripts": "^1.1.5",
     "redux": "^4.0.0"
   }
 }
